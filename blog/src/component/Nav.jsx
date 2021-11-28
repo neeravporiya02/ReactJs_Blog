@@ -8,13 +8,13 @@ const baseURL = "https://newsapi.org/v2/top-headlines?country=us&apiKey=6cc4c09c
 
 export default function App() {
   const [post, setPost] = React.useState(null);
-  // const [accepted, setAccepted] = useState(false);
+  const [accepted, setAccepted] = useState(false);
 
   React.useEffect(() => {
 
     // -- To set the refresh rate of the API 
 
-    //setTimeout(() => {
+    setTimeout(() => {
 
       axios.get(baseURL)
       .then((response) => {
@@ -22,14 +22,14 @@ export default function App() {
         console.log(JSON.stringify(response.data.articles));
       })
       .catch(error => console.log(`Error: ${error}`));
-      //setAccepted(!accepted);
+      setAccepted(!accepted);
 
       // commented the miliseconds in the code to avoid 429() Error for hitting the server frequently.
 
-    //},100000);
+    },100000);
     //accepted
 
-  },[]);
+  },[accepted]);
 
 
 
