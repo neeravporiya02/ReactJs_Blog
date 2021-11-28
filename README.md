@@ -2,21 +2,16 @@
 Creating a blog website in react js with third party api integration
 
 # Getting Started with Create React App
-
+This codes are used when we want to create a new react app from scratch.
 ### `npx create-react-app blog`.
 ### `cd blog`
 ### `npm init`
-## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+If you just want to get the node modules, then 
+1. download the code
+2. unzip the code
+3. open the cmd in the root folder and run (To get the node modules)
+### `npm install`
 
 ## NPM Installed In the Project
 1. For the Router to navigate between pages we need the following library <br/>
@@ -29,6 +24,17 @@ In this project have used router version 5 as it was stable, if one downloads ve
 3. Have also used an NPM Library for Twitter API 
 ### `npm install --save react-twitter-embed`
 
+## Available Scripts (Once all the dependecies are there, we can run the code by)
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+	
 # NOTE: (Warnings received)
 You may recieve a Error 429() <br />
 This error occurs when we hit the 3rd party api multiple times in a short period of time.
