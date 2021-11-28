@@ -19,7 +19,7 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ## NPM Installed In the Project
-1. For the Router to navigate between pages we need the following library
+1. For the Router to navigate between pages we need the following library <br/>
 In this project have used router version 5 as it was stable, if one downloads version 6 then Switch is replaced by Router inside <Routers> tag
 ### `npm install react-router-dom@5`
 
