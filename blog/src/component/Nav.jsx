@@ -26,7 +26,7 @@ export default function App() {
 
       // commented the miliseconds in the code to avoid 429() Error for hitting the server frequently.
 
-    },100000);
+    },10000);
     //accepted
 
   },[accepted]);
