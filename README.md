@@ -25,8 +25,6 @@ In this project have used router version 5 as it was stable, if one downloads ve
 ### `npm install --save react-twitter-embed`
 
 ## Available Scripts (Once all the dependecies are there, we can run the code by)
-In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
